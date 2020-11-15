@@ -2,5 +2,7 @@ Coding a responsive webpage from start to finish (https://www.youtube.com/watch?
 
 https://github.com/Annie-Huang/hippiechick-noms
 
+https://github.com/c-bec-k/HCNwebsite
+https://github.com/c-bec-k/HCNwebsite/blob/master/css/root.css
 =========================================================
 
