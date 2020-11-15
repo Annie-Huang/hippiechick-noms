@@ -74,6 +74,11 @@ html {
   font-size: 1.125rem;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Typography */
 h1,
 h2,
@@ -97,6 +102,11 @@ p {
   margin-bottom: 0.85em;
 }
 
+/* navigation */
+
+/* buttons */
+
+/* Homepage styles */
 
 
 
