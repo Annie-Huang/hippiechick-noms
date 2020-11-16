@@ -74,6 +74,10 @@ html {
   font-size: 1.125rem;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -138,6 +142,15 @@ nav a:focus {
 /* buttons */
 
 /* Homepage styles */
-
+.hero {
+  background-color: #333;
+  background-image: url("../img/Hippie-Chick-Monkey.jpg");
+  background-blend-mode: multiply;
+  background-attachment: fixed; /*Fixed the background position */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 15vh 1em;
+}
 
 
