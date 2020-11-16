@@ -83,6 +83,10 @@ img {
   max-width: 100%;
 }
 
+section {
+  padding: 3em 1em;
+}
+
 /* Typography */
 h1,
 h2,
@@ -104,6 +108,10 @@ h2 {
 
 p {
   margin-bottom: 0.85em;
+}
+
+.text-primary {
+  color: var(--clr-primary);
 }
 
 .logo {
@@ -152,5 +160,36 @@ nav a:focus {
   text-align: center;
   padding: 15vh 1em;
 }
+
+.intro {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
