@@ -3,6 +3,7 @@ Redesigning a site with Adobe XD (https://www.youtube.com/watch?v=TByfwPhM7gY)
 
 https://github.com/Annie-Huang/hippiechick-noms
 
+https://github.com/kevin-powell/HCN-redesign
 https://github.com/c-bec-k/HCNwebsite
 https://github.com/c-bec-k/HCNwebsite/blob/master/css/root.css
 =========================================================
