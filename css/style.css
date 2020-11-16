@@ -100,6 +100,7 @@ h2,
 h3 {
   font-family: var(--ff-title);
   line-height: 0.8;
+  letter-spacing: 1px;
 }
 
 h2 {
