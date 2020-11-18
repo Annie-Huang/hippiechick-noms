@@ -169,6 +169,7 @@ nav a:focus {
   text-decoration: none;
   display: inline-block;
   margin: 0.5em 0;
+  border-radius: 0.35em;
 }
 .btn-primary {
   background: var(--clr-primary);
@@ -201,8 +202,21 @@ nav a:focus {
   padding: 1.5em 1em 3em;
 }
 
+.order-online {
+  background: #f0f0f0;
+}
 
-
+.products {
+  display: flex;
+  flex-direction: column;
+}
+.product {
+  /*background: #423131;*/
+  border-radius: 1em;
+  /*border: 1px solid red;*/
+  overflow: hidden; /* make sure the border is cut of the image according to the border-radius as well. */
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+}
 
 
 
