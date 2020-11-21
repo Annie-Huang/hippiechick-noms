@@ -303,7 +303,14 @@ footer a {
     justify-content: center;
   }
 
-
+  .about-us__intro {
+    text-align: right;
+  }
+  .about-us__intro > * {
+    max-width: 27rem;
+    /*border: 3px solid yellow;*/
+    margin-left: auto; /* Push the whole h2 to the right side of .about-us__intro */
+  }
 }
 
 
