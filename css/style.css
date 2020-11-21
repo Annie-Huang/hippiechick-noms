@@ -169,6 +169,7 @@ nav a:focus {
 .btn-group {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   flex-direction: column;
 }
 .btn {
@@ -261,6 +262,7 @@ footer {
   color: white;
   display: flex;
   justify-content: center;
+  gap: 5em;
   margin-top: 3em;
 }
 footer a {
@@ -295,7 +297,6 @@ footer a {
   .btn-group {
     margin-top: 1em;
     flex-direction: row;
-    justify-content: center;
   }
   .btn + .btn {
     margin-left: 0.5em;
