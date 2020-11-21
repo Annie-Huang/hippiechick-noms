@@ -171,9 +171,6 @@ nav a:focus {
   flex-wrap: wrap;
   flex-direction: column;
 }
-.btn + .btn {
-  margin-left: 0.5em;
-}
 .btn {
   padding: 0.75em 2.5em;
   color: white;
@@ -296,9 +293,13 @@ footer a {
   }
 
   .btn-group {
+    margin-top: 1em;
     flex-direction: row;
+    justify-content: center;
   }
-
+  .btn + .btn {
+    margin-left: 0.5em;
+  }
   .about-us {
     flex-direction: row;
   }
@@ -329,11 +330,13 @@ footer a {
   }
 
   .order-online > * {
-    max-width: 55ch; /* Represents the width, of the glyph "0" (zero, the Unicode character U+0030) in the element's font. */
-    margin: 0 auto;
-  }
-  .order-online {
-    display: grid;
+    /* Represents the width, of the glyph "0" (zero, the Unicode character U+0030) in the element's font.
+       You generally don't want to go above 70 because the line is too long for a user to read.
+    */
+    max-width: 70ch;
+    /* cannot use margin: 0 auto; because we need to allow margin-top for .btn-group */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
