@@ -116,6 +116,9 @@ h2 {
 p {
   margin-bottom: 0.85em;
 }
+p:last-child {
+  margin-bottom: 0;
+}
 
 .section-title-small {
   font-size: 3rem;
@@ -225,6 +228,8 @@ nav a:focus {
 .products {
   display: flex;
   flex-direction: column;
+  max-width: 30rem;
+  margin: 0 auto;
 }
 .product {
   /*background: #423131;*/
