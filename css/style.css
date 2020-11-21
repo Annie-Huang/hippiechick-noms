@@ -286,6 +286,43 @@ footer a {
   width: 50px;
 }
 
+@media only screen and (min-width: 750px) {
+  section {
+    padding: 6em 1em;
+  }
+
+  .about-us {
+    flex-direction: row;
+  }
+  .about-us__intro,
+  .about-us__body {
+    flex: 0 1 50%; /* make each part occupy 50% of the page */
+    padding: 4em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
