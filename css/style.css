@@ -338,6 +338,19 @@ footer a {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .products {
+    flex-direction: row;
+    max-width: 1200px;
+    padding: 0 5em;
+  }
+  .product {
+    margin: 0;
+    flex: 0 1 33%; /* 33% make each image the same size */
+  }
+  .product + .product {
+    margin-left: 1em;
+  }
 }
 
 
