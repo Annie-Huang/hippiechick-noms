@@ -217,10 +217,18 @@ nav a:focus {
   overflow: hidden; /* make sure the border is cut of the image according to the border-radius as well. */
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
 }
-
-
-
-
+.product__content {
+  padding: 1.5em;
+}
+.product__title {
+  color: var(--clr-primary);
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+.fineprint {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.85);
+}
 
 
 
