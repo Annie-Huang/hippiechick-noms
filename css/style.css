@@ -233,6 +233,9 @@ nav a:focus {
   overflow: hidden; /* make sure the border is cut of the image according to the border-radius as well. */
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
 }
+.product:last-of-type {
+  margin-bottom: 2em;
+}
 .product__content {
   padding: 1.5em;
 }
@@ -246,10 +249,37 @@ nav a:focus {
   color: rgba(0, 0, 0, 0.85);
 }
 
-
-
-
-
+footer {
+  background: var(--clr-accent-dark);
+  padding: 3em 1em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+footer a {
+  color: inherit;
+}
+.footer-nav,
+.footer-social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-nav a {
+  padding: 0.75em;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+.social-link {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.social-icon {
+  width: 50px;
+}
 
 
 
